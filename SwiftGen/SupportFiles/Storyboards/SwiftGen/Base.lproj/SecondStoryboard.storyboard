@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Qfx-Wf-0l6">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ClassA View Controller-->
+        <scene sceneID="nGG-Mz-lUh">
+            <objects>
+                <viewController id="oiQ-Tz-AZR" customClass="ClassAViewController" customModule="SwiftGen" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Cbn-Zp-Zkd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="class A in another storyboard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9GK-TZ-HHr">
+                                <rect key="frame" x="75" y="296" width="224" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="9GK-TZ-HHr" firstAttribute="top" secondItem="Lby-tc-1Hc" secondAttribute="top" constant="276" id="MFx-t0-Lo9"/>
+                            <constraint firstItem="Lby-tc-1Hc" firstAttribute="bottom" secondItem="9GK-TZ-HHr" secondAttribute="bottom" constant="350" id="UXA-PI-wJN"/>
+                            <constraint firstItem="9GK-TZ-HHr" firstAttribute="leading" secondItem="Lby-tc-1Hc" secondAttribute="leading" constant="75" id="d1N-SM-hL1"/>
+                            <constraint firstItem="Lby-tc-1Hc" firstAttribute="trailing" secondItem="9GK-TZ-HHr" secondAttribute="trailing" constant="76" id="eMk-nE-Dk0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Lby-tc-1Hc"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="spi-9S-usa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="618" y="385"/>
+        </scene>
+        <!--ClassC View Controller-->
+        <scene sceneID="lKN-Vu-sNy">
+            <objects>
+                <viewController storyboardIdentifier="ClassCViewController" id="Qfx-Wf-0l6" customClass="ClassCViewController" customModule="SwiftGen" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="64X-Kp-n31">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BLT-UJ-IUh">
+                                <rect key="frame" x="166" y="301" width="12" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="NFC-1a-ZBc" firstAttribute="trailing" secondItem="BLT-UJ-IUh" secondAttribute="trailing" constant="197" id="8Yl-Sv-ALV"/>
+                            <constraint firstItem="BLT-UJ-IUh" firstAttribute="top" secondItem="NFC-1a-ZBc" secondAttribute="top" constant="281" id="UWS-9s-sFD"/>
+                            <constraint firstItem="BLT-UJ-IUh" firstAttribute="leading" secondItem="NFC-1a-ZBc" secondAttribute="leading" constant="166" id="gfV-VI-ucy"/>
+                            <constraint firstItem="NFC-1a-ZBc" firstAttribute="bottom" secondItem="BLT-UJ-IUh" secondAttribute="bottom" constant="345" id="iDe-Hz-Vzs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="NFC-1a-ZBc"/>
+                    </view>
+                    <connections>
+                        <segue destination="oiQ-Tz-AZR" kind="show" identifier="segueInAnotherStoryboard" id="LLO-BE-0NU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mHm-lt-TxO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-174" y="385"/>
+        </scene>
+    </scenes>
+</document>

@@ -53,6 +53,8 @@
 		973ABC895E4248FDFFB210EB /* Pods-SwiftGenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGenTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGenTests/Pods-SwiftGenTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A0A3F0747DF8C9A01C74EF11 /* Pods-SwiftGen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGen/Pods-SwiftGen.debug.xcconfig"; sourceTree = "<group>"; };
 		A86923B5D0CFF8D1B035F912 /* Pods-SwiftGen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGen.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGen/Pods-SwiftGen.release.xcconfig"; sourceTree = "<group>"; };
+		BF71CF4B215D8B4A008AEE1B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF71CF4C215D8B4D008AEE1B /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = fr; path = fr.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFCA6BD7215D80FC00C7736B /* SwiftGen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftGen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFCA6BDA215D80FC00C7736B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFCA6BDC215D80FC00C7736B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,11 +74,9 @@
 		BFCA6C0F215D821700C7736B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SwiftGen/Base.lproj/SecondStoryboard.storyboard; sourceTree = "<group>"; };
 		BFCA6C17215D845B00C7736B /* seguestemplate.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = seguestemplate.stencil; sourceTree = "<group>"; };
 		BFCA6C19215D846E00C7736B /* segues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = segues.swift; sourceTree = "<group>"; };
-		BFCA6C1C215D849E00C7736B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		BFCA6C1F215D878900C7736B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFCA6C20215D87A400C7736B /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		BFCA6C21215D87A400C7736B /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = SwiftGen/fr.lproj/SecondStoryboard.strings; sourceTree = "<group>"; };
-		BFCA6C22215D87A400C7736B /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
 		BFCA6C23215D87D900C7736B /* scenestemplate.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = scenestemplate.stencil; sourceTree = "<group>"; };
 		BFCA6C25215D882400C7736B /* storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = storyboards.swift; sourceTree = "<group>"; };
 		F4031C6495C2F77A84B73D73 /* Pods-SwiftGenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGenTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGenTests/Pods-SwiftGenTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -473,8 +473,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				BFCA6BDF215D80FC00C7736B /* Base */,
-				BFCA6C1C215D849E00C7736B /* en */,
-				BFCA6C22215D87A400C7736B /* fr */,
+				BF71CF4B215D8B4A008AEE1B /* en */,
+				BF71CF4C215D8B4D008AEE1B /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

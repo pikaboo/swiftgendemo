@@ -16,6 +16,14 @@ internal enum StoryboardSegue {
     case gotoB
     case gotoC
   }
+  internal enum Main: String, SegueType {
+    case gotoB
+    case gotoC
+  }
+  internal enum Main: String, SegueType {
+    case gotoB
+    case gotoC
+  }
   internal enum SecondStoryboard: String, SegueType {
     case segueInAnotherStoryboard
   }

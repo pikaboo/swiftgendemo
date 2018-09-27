@@ -27,6 +27,16 @@ internal enum StoryboardScene {
 
     internal static let initialScene = InitialSceneType<SwiftGen.ClassAViewController>(storyboard: Main.self)
   }
+  internal enum Main: StoryboardType {
+    internal static let storyboardName = "Main"
+
+    internal static let initialScene = InitialSceneType<SwiftGen.ClassAViewController>(storyboard: Main.self)
+  }
+  internal enum Main: StoryboardType {
+    internal static let storyboardName = "Main"
+
+    internal static let initialScene = InitialSceneType<SwiftGen.ClassAViewController>(storyboard: Main.self)
+  }
   internal enum SecondStoryboard: StoryboardType {
     internal static let storyboardName = "SecondStoryboard"
 
